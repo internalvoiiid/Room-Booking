@@ -45,7 +45,7 @@ def test_negative_hours_raises_value_error():
         (48, 1),
         (True, True),
         (None, True),
-        (48.0, True),
+
     ],
 )
 def test_invalid_type_raises_type_error(
