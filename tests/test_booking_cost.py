@@ -60,7 +60,8 @@ def test_invalid_range_raises_value_error(
         (5, 10000.0),
         (True, 10000),
         (5, False),
-
+        (None, 10000),  
+        (5, None),      
     ],
 )
 def test_invalid_type_raises_type_error(
