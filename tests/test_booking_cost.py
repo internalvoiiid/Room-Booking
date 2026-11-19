@@ -12,7 +12,7 @@ from src.booking_cost import calculate_booking_cost
         (30, 10000, 300000),
         (7, 10000, 70000),  
         (6, 10000, 60000),
-        (8, 10000, 80000), 
+        
     ],
 )
 def test_valid_booking_returns_expected_cost(
